@@ -87,10 +87,17 @@ const config: Config = {
   			]
   		},
   		borderRadius: {
+			"2": "8px",
+			"1.5": "6px",
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		backgroundImage: {
+			"auth-dark": "url('/images/auth-dark.png')",
+			"auth-light": "url('/images/auth-light.png')"
+		}
+
   	}
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports
